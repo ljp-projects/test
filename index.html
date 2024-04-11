@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <body>
+        <div id="app"></div>
+        <script>
+            import("./elm.js").then((Elm) => {
+                // You can now use the Elm object here
+                var app = Elm.Main.init({
+                    node: document.getElementById("elm-app"),
+                });
+            });
+        </script>
+    </body>
+</html>
